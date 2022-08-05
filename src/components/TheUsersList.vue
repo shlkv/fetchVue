@@ -1,7 +1,6 @@
 <template>
 <span v-html="persons" ></span>
-<button @click="show">aaaa</button>
-<app-btn style="display:none;"> <span v-html="persons"></span> </app-btn>
+<button @click="show">persons</button>
 </template>
 
 <script>
