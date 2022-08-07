@@ -1,6 +1,5 @@
 <template>
 <span v-html="persons" ></span>
-<button @click="show">persons</button>
 </template>
 
 <script>
@@ -16,7 +15,6 @@ export default {
       console.log(this.persons)
     }
   }
-
 }
 </script>
 
